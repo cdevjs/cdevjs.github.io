@@ -4,49 +4,24 @@ title: Login
 permalink: /login/
 ---
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gray-100 font-sans">
 
-<div class="container mt-5">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-header">
-                    <h4 class="mb-0">Login</h4>
-                </div>
-                <div class="card-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="username">Usuário:</label>
-                            <input type="text" class="form-control" id="username" placeholder="Digite seu usuário">
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Senha:</label>
-                            <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Entrar</button>
-                    </form>
-                </div>
-            </div>
-        </div>
+<div class="container mx-auto p-8">
+    <div class="bg-white max-w-md mx-auto p-8 rounded-lg shadow-lg">
+        <h1 class="text-3xl font-bold mb-4">Bem-vindo, Pedro!</h1>
+        <p class="text-gray-600">Desenvolvedor Fullstack</p>
     </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
 </body>
 </html>
-
-
-
 
 
