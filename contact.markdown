@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Login
-permalink: /login/
+title: Back to the site
+permalink: /back/
 ---
 
 
@@ -16,12 +16,16 @@ permalink: /login/
 
 <div class="container mx-auto p-8">
     <div class="bg-white max-w-md mx-auto p-8 rounded-lg shadow-lg">
-        <h1 class="text-3xl font-bold mb-4">Bem-vindo, Pedro!</h1>
-        <p class="text-gray-600">Desenvolvedor Fullstack</p>
+        <h1> Backing to the site </h1>
     </div>
 </div>
 
 </body>
 </html>
+
+<script>
+  // Redirecione imediatamente para https://www.exemplo.com
+  window.location.href = "https://google.com";
+</script>
 
 
