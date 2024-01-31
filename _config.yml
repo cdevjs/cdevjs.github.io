@@ -33,10 +33,10 @@ twitter_username: pedrocya30
 github_username: cdevjs
 
 # Build settings
-remote_theme: pages-themes/hacker@v0.2.0
+theme: minima
 plugins:
 - jekyll-feed
-- jekyll-remote-theme
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
