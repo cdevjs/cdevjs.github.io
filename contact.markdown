@@ -24,8 +24,11 @@ permalink: /back/
 </html>
 
 <script>
-  // Redirecione imediatamente para https://www.exemplo.com
-  window.location.href = "https://google.com";
+  // Aguarde 3 segundos e, em seguida, redirecione para https://www.exemplo.com
+  setTimeout(function() {
+    window.location.href = "https://www.exemplo.com";
+  }, 3000); // O tempo está em milissegundos, então 3000 ms = 3 segundos
 </script>
+
 
 
