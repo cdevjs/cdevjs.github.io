@@ -5,30 +5,29 @@ permalink: /back/
 ---
 
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Landing Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-100 font-sans">
+<body>
 
-<div class="container mx-auto p-8">
-    <div class="bg-white max-w-md mx-auto p-8 rounded-lg shadow-lg">
-        <h1> Backing to the site </h1>
-    </div>
-</div>
+    <h1>Seu endereço IP é:</h1>
+    <p id="ip"></p>
 
+    <script>
+        // Função para obter o endereço IP
+        function getIP(callback){
+            fetch('https://api64.ipify.org?format=json')
+            .then(response => response.json())
+            .then(data => callback(data.ip))
+            .catch(error => callback('Erro ao obter o IP.'));
+        }
+
+        // Atualiza o elemento HTML com o endereço IP
+        function updateIP(ip){
+            document.getElementById('ip').innerText = ip;
+        }
+
+        // Chama a função para obter e exibir o IP
+        getIP(updateIP);
+    </script>
 </body>
-</html>
-
-<script>
-  // Aguarde 3 segundos e, em seguida, redirecione para https://www.exemplo.com
-  setTimeout(function() {
-    window.location.href = "https://www.exemplo.com";
-  }, 3000); // O tempo está em milissegundos, então 3000 ms = 3 segundos
-</script>
 
 
 
