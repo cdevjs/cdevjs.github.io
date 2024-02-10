@@ -7,6 +7,6 @@ layout: home
 
 
 <h1>Hi!</h1>
-<span>Welcome To The <a href="https://cdevjs.github.io">CYABLOG</a></span>
+<span>Welcome to <a href="https://cdevjs.github.io">CYABLOG</a></span>
 <p>Want to know more?</p>
 <p>Check <a href="https://cdevjs.github.io">this</a></p>
