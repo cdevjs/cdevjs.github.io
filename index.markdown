@@ -9,6 +9,7 @@ layout: home
 <span>Welcome to <a href="https://cdevjs.github.io">CYABLOG</a></span>
 <p>Want to know more?</p>
 <p>Check <a href="https://cdevjs.github.io/about">this</a></p>
+  <a href="https://youtu.be/J---aiyznGQ?si=XSLKbayxKqHab3rA">cya</a>
 <br>
 <br>
 <div>
