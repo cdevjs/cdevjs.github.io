@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NEW
+title: LIFE
 permalink: /new/
 ---
 
