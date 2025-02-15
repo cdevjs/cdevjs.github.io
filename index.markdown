@@ -5,15 +5,13 @@
 layout: home
 ---
 
-<h1>Hi!</h1>
-<span>Welcome to <a href="https://cdevjs.github.io">CYABLOG</a></span>
-<p>Want to know more?</p>
-<p>Check <a href="https://cdevjs.github.io/about">this</a></p>
-  <a href="https://youtu.be/J---aiyznGQ?si=XSLKbayxKqHab3rA">cya</a>
+<h1>WELCOME</h1>
+
+<p>Poems</p>
 <br>
 <br>
 <div>
-  <img src="https://i.pinimg.com/originals/d4/81/f3/d481f3c72e283309071f79e01b05c06d.gif">
+  <img src="https://i.gifer.com/F4kC.gif">
 </div>
 <br>
 <br>
