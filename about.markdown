@@ -1,15 +1,20 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: NEW
+permalink: /new/
 ---
 
-I'm CYA (Pedro H). 👋
-In this blog, I will share moments of my life and things about programming, codes, and more. If you want to contact me, you can use email.
-Nice to meet you! 🤝
+Jesus loves you!
+
+'For God so loved the world that he gave his one and only Son, that 
+whoever believes in him shall not perish but have eternal life. '
+
+John 3:16
 
 
 
-<img src="https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/02/nyan-cat-1.gif">
+
+
+
 
 
