@@ -6,13 +6,9 @@ layout: home
 ---
 
 <h1>WELCOME</h1>
-
-<p>Poems</p>
-<br>
 <br>
 <div>
   <img src="https://i.gifer.com/F4kC.gif">
 </div>
-<br>
 <br>
 
